@@ -21,5 +21,6 @@ module.exports = {
   rules: {
     '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_|^req|^next' }],
     'react/prop-types': 0,
+    '@typescript-eslint/explicit-function-return-type': 'off',
   },
 };
